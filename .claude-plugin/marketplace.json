@@ -1,0 +1,16 @@
+{
+  "name": "ccs-study-skills",
+  "description": "Claude Code 스터디 심화반 교보재 스킬 모음",
+  "owner": {
+    "name": "Claude Code Study"
+  },
+  "plugins": [
+    {
+      "name": "ccs-toolkit",
+      "description": "심화반 10단계에서 쓰는 실습 스킬 묶음 - 기획, 문서, 시트, 슬랙, 크롤링, OCR, 데스크톱 자동화, 슬랙 상주 봇",
+      "source": "./plugins/ccs-toolkit",
+      "category": "education",
+      "tags": ["study", "korean", "automation", "education"]
+    }
+  ]
+}
