@@ -1,0 +1,15 @@
+{
+  "name": "ccs-design",
+  "version": "0.1.0",
+  "description": "프론트 디자인 톤 스킬 7종 (원문 재배포, MIT). 기본기·고급·미니멀·브루탈리스트·리디자인. 활용 가이드는 USAGE.md.",
+  "author": {
+    "name": "Leonxlnx"
+  },
+  "keywords": [
+    "design",
+    "frontend",
+    "ui",
+    "education"
+  ],
+  "license": "MIT"
+}

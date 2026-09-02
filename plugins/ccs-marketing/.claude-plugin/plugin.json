@@ -1,0 +1,16 @@
+{
+  "name": "ccs-marketing",
+  "version": "0.1.0",
+  "description": "마케팅 스킬 49종 (원문 재배포, MIT). 진단·계획·카피·콘텐츠·광고·리텐션·영업. 활용 가이드는 USAGE.md.",
+  "author": {
+    "name": "Corey Haines"
+  },
+  "keywords": [
+    "marketing",
+    "seo",
+    "copywriting",
+    "ads",
+    "education"
+  ],
+  "license": "MIT"
+}
