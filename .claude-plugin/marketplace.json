@@ -1,14 +1,14 @@
 {
-  "name": "ccs-study-skills",
+  "name": "selllogic-skills",
   "description": "Claude Code 스터디 심화반 교보재 스킬 모음",
   "owner": {
-    "name": "Claude Code Study"
+    "name": "셀로직 selllogic"
   },
   "plugins": [
     {
-      "name": "ccs-toolkit",
+      "name": "selllogic-toolkit",
       "description": "심화반 10단계에서 쓰는 실습 스킬 묶음 - 기획, 문서, 시트, 슬랙, 크롤링, OCR, 데스크톱 자동화, 슬랙 상주 봇",
-      "source": "./plugins/ccs-toolkit",
+      "source": "./plugins/selllogic-toolkit",
       "category": "education",
       "tags": [
         "study",
@@ -18,9 +18,9 @@
       ]
     },
     {
-      "name": "ccs-marketing",
+      "name": "selllogic-marketing",
       "description": "마케팅 스킬 49종 원문 + 우리 활용 가이드 (MIT, Corey Haines)",
-      "source": "./plugins/ccs-marketing",
+      "source": "./plugins/selllogic-marketing",
       "category": "marketing",
       "tags": [
         "marketing",
@@ -30,9 +30,9 @@
       ]
     },
     {
-      "name": "ccs-design",
+      "name": "selllogic-design",
       "description": "프론트 디자인 톤 스킬 7종 원문 + 우리 활용 가이드 (MIT, Leonxlnx)",
-      "source": "./plugins/ccs-design",
+      "source": "./plugins/selllogic-design",
       "category": "design",
       "tags": [
         "design",

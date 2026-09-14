@@ -1,4 +1,4 @@
-# CCS 심화반 교보재 스킬
+# 셀로직 스킬 (Claude Code 스터디 심화반 교보재)
 
 Claude Code 스터디 심화반 수강생용 스킬 묶음. 각 단계 실습에서 이 스킬을 열어 구조를 뜯어보고,
 자기 버전으로 고쳐 쓰는 것이 과제다.
@@ -8,25 +8,25 @@ Claude Code 스터디 심화반 수강생용 스킬 묶음. 각 단계 실습에
 Claude Code 에서:
 
 ```
-/plugin marketplace add <이 저장소 주소>
-/plugin install ccs-toolkit@ccs-study-skills
+/plugin marketplace add azzselloo-sudo/selllogic-skills
+/plugin install selllogic-toolkit@selllogic-skills
 ```
 
 플러그인은 셋이다. 필요한 것만 설치한다.
 
 | 플러그인 | 내용 | 출처 |
 |---|---|---|
-| `ccs-toolkit` | 심화반 교보재 10종 | 스터디 자체 제작 |
-| `ccs-marketing` | 마케팅 스킬 49종 + 활용 가이드 | MIT · Corey Haines |
-| `ccs-design` | 프론트 디자인 톤 7종 + 활용 가이드 | MIT · Leonxlnx |
+| `selllogic-toolkit` | 심화반 교보재 10종 | 스터디 자체 제작 |
+| `selllogic-marketing` | 마케팅 스킬 49종 + 활용 가이드 | MIT · Corey Haines |
+| `selllogic-design` | 프론트 디자인 톤 7종 + 활용 가이드 | MIT · Leonxlnx |
 
-`ccs-marketing` 과 `ccs-design` 은 **원문 그대로**다. 고치지 않았으므로 업스트림이 갱신되면
+`selllogic-marketing` 과 `selllogic-design` 은 **원문 그대로**다. 고치지 않았으므로 업스트림이 갱신되면
 그대로 따라갈 수 있다. 대신 각 플러그인의 `USAGE.md` 에 "언제 무엇을 켜는지 + 실전 함정"을 적어 두었다.
 스킬을 받는 것보다 그 문서를 읽는 쪽이 먼저다.
 
 설치 후 `/plugin` 으로 확인한다.
 
-## ccs-toolkit 에 담긴 스킬
+## selllogic-toolkit 에 담긴 스킬
 
 | 스킬 | 무엇을 하나 | 관련 단계 |
 |---|---|---|
@@ -57,7 +57,7 @@ Claude 가 알아서 켠다. 안 켜지면 그 문장에 트리거 단어를 넣
 
 ## 주의
 
-- `ccs-toolkit` 스킬 안의 경로·계정은 전부 `<자리표시자>` 다. 자기 값으로 바꿔야 동작한다
+- `selllogic-toolkit` 스킬 안의 경로·계정은 전부 `<자리표시자>` 다. 자기 값으로 바꿔야 동작한다
 - 토큰·키를 스킬 파일에 적지 않는다. 환경변수로 넣는다
-- `ccs-marketing`·`ccs-design` 은 영어권 기준으로 쓰인 원문이다. 한국 시장에 맞게 다시 지시해야 한다
+- `selllogic-marketing`·`selllogic-design` 은 영어권 기준으로 쓰인 원문이다. 한국 시장에 맞게 다시 지시해야 한다
 - 재배포분의 라이선스(MIT)와 저작권 고지는 각 플러그인 폴더의 `LICENSE` 에 있다. 지우지 않는다
